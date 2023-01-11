@@ -1,0 +1,57 @@
+  .card_solze1 {
+      border: 1px solid #ddd;
+      box-shadow: -1px 3px 4px 2px #a5f7ff;
+      padding: 10px;
+      height: 130px;
+      width: 153px;
+  }
+  
+  .material-icons {
+      font-size: 25px;
+      color: #0b5c72;
+  }
+  
+  .new_dashboard {
+      width: calc(100% - 1px);
+      height: max-content;
+      overflow-y: scroll;
+      overflow-y: scroll !important;
+      -webkit-overflow-scrolling: touch;
+  }
+  
+  .side_logo {
+      background-image: radial-gradient(circle, #093360, #00244a, #1269c5);
+  }
+  
+  .side_content {
+      background-color: #fff;
+  }
+  
+  .side_icon {
+      color: #000;
+  }
+  
+  .side_text {
+      color: #000;
+  }
+  
+  .sub_menu {
+      background-color: #fff;
+      color: #000;
+  }
+  
+  .pro-sidebar .pro-menu.shaped .pro-menu-item>.pro-inner-item>.pro-icon-wrapper {
+      background-color: #0065fd;
+  }
+  
+  .pro-sidebar .pro-menu .pro-menu-item>.pro-inner-item>.pro-icon-wrapper .pro-icon {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      color: #fff;
+      justify-content: center;
+  }
+
+  .m-5{
+    margin: 5px;
+  }

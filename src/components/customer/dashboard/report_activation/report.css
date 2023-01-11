@@ -1,0 +1,161 @@
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    background: #06D85F;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    /* adjust as per your needs */
+    height: 400px;
+    /* adjust as per your needs */
+    margin-left: -200px;
+    /* negative half of width above */
+    margin-top: -200px;
+    /* negative half of height above */
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    padding: 20px;
+    background-color: rgb(1, 17, 68);
+    border-radius: 5px;
+    width: 70%;
+    color: #fff;
+    transition: all 5s ease-in-out;
+    position: fixed;
+    z-index: 1;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #fff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(252, 71, 71);
+}
+
+.popup .close:hover {
+    color: #06D85F;
+}
+
+.popup .content {
+    max-height: 70%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 100%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+    .popup {
+        width: 100%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.card_height {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+.view_details {
+    background-color: #012852;
+    padding: 6px;
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.card-report {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.align-self-center-icon {
+    margin-right: 20px;
+    background-color: rgb(14, 62, 219);
+    font-size: 25px;
+    color: #fff;
+    padding: 2px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 1px #9f9f9f;
+    height: 40px;
+}
+
+.footer {
+    margin-left: 50px;
+}
+
+.address {
+    font-size: 15px;
+}
+
+.anchor_tag {
+    color: #000;
+    border: 1px solid #C0DEED;
+    text-decoration: none !important;
+}
+
+.icon_for_popup {
+    margin-right: 20px;
+    color: #0e3edb;
+    padding: 3px;
+    border-radius: 10px;
+    height: 30px;
+    background: #fff;
+}
+
+.seprate_pop {
+    border-bottom: 1px solid #dddddd75;
+}

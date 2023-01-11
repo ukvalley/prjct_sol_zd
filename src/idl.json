@@ -1,0 +1,71 @@
+{
+    "version": "0.1.0",
+    "name": "basic_0",
+    "instructions": [
+      {
+        "name": "initialize",
+        "accounts": [
+          {
+            "name": "from",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "to",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "interactionFee",
+            "type": "u64"
+          }
+        ]
+      },
+      {
+        "name": "interaction",
+        "accounts": [
+          {
+            "name": "from",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "to",
+            "isMut": true,
+            "isSigner": false
+          },
+          {
+            "name": "owner",
+            "isMut": false,
+            "isSigner": true
+          },
+          {
+            "name": "tokenProgram",
+            "isMut": false,
+            "isSigner": false
+          }
+        ],
+        "args": [
+          {
+            "name": "interactionFee",
+            "type": "u64"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "address": "6a3nXoqf6JwrA1xMAtNpNBVUWwrFJaHDRtBpQ9LwXsP"
+    }
+  }

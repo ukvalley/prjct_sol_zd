@@ -1,0 +1,321 @@
+header1 {
+    position: absolute;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.header1 {
+    margin-top: 20px;
+    ;
+}
+
+header1 video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    object-fit: contain;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header1 .container {
+    z-index: 2;
+}
+
+header1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+header .overlay video {
+    position: absolute;
+    height: 100%;
+    right: 0px;
+}
+
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+body {
+    background-color: #fff;
+}
+
+header1 {
+    position: absolute;
+    background-color: #fff;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mat-5 {
+    margin-top: 5rem;
+}
+
+.ma-5 {
+    margin: 5px;
+    ;
+}
+
+header1 video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 600px;
+    width: auto;
+    height: 600px;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header1 .container {
+    position: relative;
+    z-index: 2;
+}
+
+header1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+.blog {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* --- CSS --- */
+
+.background {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.background>h4 {
+    color: #fff;
+    font-size: 2em;
+    font-family: sans-serif;
+    padding: 150px;
+}
+
+.transaction {
+    background-color: #212529;
+    margin-top: 600px;
+}
+
+.nameform {
+    color: white;
+}
+
+.card0 {
+    background-color: rgb(235, 84, 188);
+    border: 1px solid;
+    border-radius: 31px;
+}
+
+.card11 {
+    background-color: rgb(27, 27, 27)
+}
+
+.image-height {
+    height: 175px;
+}
+
+.card2 {
+    background-color: rgb(20, 241, 149);
+    border: 1px solid;
+    border-radius: 31px;
+}
+
+.card3 {
+    background-color: rgb(128, 236, 255);
+    border: 1px solid;
+    border-radius: 31px;
+}
+
+.card4 {
+    background-color: #faf876;
+    border: 1px solid;
+    border-radius: 31px;
+}
+
+.card5 {
+    background-color: hsl(258, 100%, 83%);
+    border: 1px solid;
+    border-radius: 31px;
+}
+
+.card6 {
+    background-color: rgb(255, 168, 168);
+    border: 1px solid;
+    border-radius: 31px;
+}
+
+.focus_bg {
+    background-color: #faf876;
+}
+
+.focus_bg_pink {
+    background-color: hsl(300, 85%, 82%);
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.featuresh4 {
+    font-size: 2.625rem;
+    font-weight: bold;
+    line-height: 117%;
+}
+
+.headerbtn {
+    font-family: DSemi, monospace;
+    font-weight: normal;
+    line-height: 0.25rem;
+    width: fit-content;
+    background-color: rgb(20, 241, 149);
+    border-radius: 2.25rem;
+    padding: 0.875rem 0.5rem;
+    color: black;
+    border: 1px solid black;
+    margin-top: 0.95rem;
+}
+
+.withdraw-btn {
+    font-family: DSemi, monospace;
+    font-weight: normal;
+    line-height: 1.25rem;
+    width: 50%;
+    background-color: rgb(20, 241, 149);
+    border-radius: 2.25rem;
+    padding: 0.875rem 1.5rem;
+    color: black;
+    border: 1px solid black;
+    align-self: center;
+    margin-top: 50px;
+    ;
+}
+
+.h6 {
+    font-size: 1.5rem;
+    line-height: 117%;
+    letter-spacing: -0.0425rem;
+    padding-top: 0.75rem;
+}
+
+.small-font {
+    font-size: 0.74rem;
+}
+
+.ccontainer {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ch1 {
+    font-weight: normal;
+    letter-spacing: .025rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.cli {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.cli span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    .ch1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+    .cli {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+    .cli span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}
+
+.my-card {
+    position: absolute;
+    left: 40%;
+    top: -20px;
+    border-radius: 50%;
+}
+
+.sol_card {
+    background-color: #fff;
+}
+
+.sol_icon {
+    background-color: #fff;
+}
+
+.m-5{
+    margin: 5px;
+}
+
+.m7{
+    margin: 7px;
+  }
